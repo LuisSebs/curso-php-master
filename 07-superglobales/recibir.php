@@ -4,6 +4,10 @@
 // echo $_GET['apellidos'].'</br>';
 // echo $_GET['web'].'</br>';
 // POST
-echo $_POST['nombre'];
-echo $_POST['apellidos'];
+$nombre = $_POST['nombre'];
+$apellidos = $_POST['apellidos'];
+echo $nombre.'<br/>';
+echo $apellidos.'<br/>';
+var_dump($nombre);
+var_dump($apellidos);
 ?>
